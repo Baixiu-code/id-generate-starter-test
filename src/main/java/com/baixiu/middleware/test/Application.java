@@ -15,7 +15,6 @@ import org.springframework.context.annotation.PropertySource;
         "classpath:spring-datasource.properties",
 }, encoding = "utf-8")
 @SpringBootApplication(scanBasePackages={"com.baixiu.middleware"})
-@MapperScan("com.baixiu.middleware.id.dao")
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
